@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Project</title>
+</head>
+<body>
+    <button class="btn-donate">
+        Donate now
+      </button>
+      <form class="control">
+        <legend class="control__legend">Controls</legend>
+        <label class="control__label" for="radii">Radii</label>
+        <input
+          type="range"
+          min="1"
+          max="50"
+          value="22"
+          class="control__slider"
+          name="radii"
+        >
+        <p class="control__size">22 px</p>
+        <label class="control__label" for="radii">Size</label>
+        <input
+          type="range"
+          min="1"
+          max="4"
+          value="3"
+          class="control__slider"
+          name="size"
+          step="0.5"
+          >
+        <p class="control__size">3 rem</p>
+        <label class="control__label" for="color1">Color 1</label>
+        <input
+          type="color"
+          class="control__color"
+          name="color1"
+          value="#60D9FF"
+          >
+        <p class="control__size"></p>
+        <label class="control__label" for="color2">Color 2</label>
+        <input
+          type="color"
+          class="control__color"
+          name="color2"
+          value="#1D74FF"
+          >
+        <p class="control__size"></p>
+      </form>
+      <script src="./assets/script.js"></script>
+</body>    
+</html>
